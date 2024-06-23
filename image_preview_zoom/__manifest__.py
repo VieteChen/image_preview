@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "image_preview_zoom",
+    'name': "Image Preview Zoom",
 
     'summary': "Click on the image to enlarge the preview",
 
