@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "image_preview_widget",
+    'name': "image_preview_zoom",
 
     'summary': "Click on the image to enlarge the preview",
 
@@ -32,8 +32,8 @@ Click on the image to enlarge the preview, The usage method is exactly the same 
     ],
     'assets': {
         'web.assets_backend': [
-            'image_preview_widget/static/src/views/fields/image_preview/image_preview.xml',
-            'image_preview_widget/static/src/views/fields/image_preview/image_preview.js',
+            'image_preview_zoom/static/src/views/fields/image_preview/image_preview.xml',
+            'image_preview_zoom/static/src/views/fields/image_preview/image_preview.js',
         ],
     },
 }
