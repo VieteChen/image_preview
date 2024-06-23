@@ -19,7 +19,7 @@ Click on the image to enlarge the preview, The usage method is exactly the same 
     'license': 'LGPL-3',
     # any module necessary for this one to work correctly
     'depends': ['base', 'web'],
-
+    'images': ['static/description/banner.jpg'],
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
