@@ -7,7 +7,7 @@ import { isBinarySize } from "@web/core/utils/binary";
 
 
 export class ImagePreviewField extends ImageField {
-    static template = "image_preview_widget.ImagePreviewField";
+    static template = "image_preview_zoom.ImagePreviewField";
     setup() {
         super.setup();
         this.fileViewer = useFileViewer();
