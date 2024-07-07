@@ -32,11 +32,11 @@ Click on the image to enlarge the preview, The usage method is exactly the same 
     ],
     'assets': {
         'web.assets_qweb': [
-            'image_preview_widget/static/src/views/fields/image_preview/image_preview.xml',
+            'image_preview_zoom/static/src/views/fields/image_preview/image_preview.xml',
         ],
         'web.assets_backend': [
-            'image_preview_widget/static/src/views/fields/image_preview/image_preview.scss',
-            'image_preview_widget/static/src/views/fields/image_preview/image_preview.js',
+            'image_preview_zoom/static/src/views/fields/image_preview/image_preview.scss',
+            'image_preview_zoom/static/src/views/fields/image_preview/image_preview.js',
         ],
     },
 }

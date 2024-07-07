@@ -306,7 +306,9 @@ odoo.define('image_preview_zoom.image_preview_fields', function (require) {
             this.imageComponent = new AttachmentViewer(event.target.src, this.string);
             const parentNode = document.querySelector('body');
             this.imageComponent.mount(parentNode);
-            event.stopPropagation();
+            if (this.viewType === "list"){
+                event.stopPropagation();
+            }
         }
     });
 
